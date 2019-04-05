@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.landing-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray {
+
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   filter: grayscale(100%);
+   transition: all 3s ease;
+}
+
+.gray-remove {
+    filter: grayscale(0%);
+    transition: all 3s ease;
+ }
+
+.summer-bgr {
+    background: url('../assets/irl-summer.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.winter-bgr {
+    background: url('../assets/irl-winter.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.autumn-bgr {
+    background: url('../assets/irl-autumn.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.spring-bgr {
+    background: url('../assets/irl-spring.jpg');
+    background-position: center;
+    background-size: cover;
+}
